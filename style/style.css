@@ -302,16 +302,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 80px;
 }
 
 .contact-info {
     padding-right: 240px;
 }
 
-hr {
-    /* background: rgba(255, 255, 255, 0.082);
-     width: ; */
-}
+
 
 .social-link {
     text-align: center;
@@ -332,4 +330,5 @@ hr {
     justify-content: space-between;
     padding: 0px 80px;
     padding-bottom: 140px;
+    padding-top:80px ;
 }
