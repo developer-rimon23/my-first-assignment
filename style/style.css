@@ -1,17 +1,18 @@
 /* main related style */
+* {
+    margin: 0;
+}
+
 body {
     font-family: 'Merriweather', serif;
 }
 
-.firt-section {
-    background-image: url('../media/happy\ Banner.png');
-    margin: 50px 140px 140px;
-    width: 1320px;
-    height: 600px;
-}
-
 .banner {
-    /* text-align: center; */
+    background-image: url('../media/happy\ Banner.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 50px 100px 100px;
+
 }
 
 .happy-new-year {
@@ -19,7 +20,7 @@ body {
     text-align: center;
     font-size: 32px;
     font-weight: 400;
-    padding-top: 150px;
+    padding-top: 180px;
 }
 
 .happy-new-year-title {
@@ -28,7 +29,10 @@ body {
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
-    width: 600px;
+    /* width: 600px; */
+    padding-left: 340px;
+    padding-right: 350px;
+    padding-bottom: 180px;
 
 }
 
@@ -74,19 +78,17 @@ body {
 }
 
 /* night party section style */
-.party {}
-
 .night-party-container {
     display: flex;
     gap: 100px;
     justify-content: space-between;
-    padding: 0 150px;
-    background-image: url('/media/Vectorrr.png');
+    background-image: url('../media/Vectorrr.png');
     background-repeat: no-repeat;
+    background-position: top center;
     border-radius: 10px;
     margin: 140px;
-    width: 1000px;
-    height: 500px;
+    padding: 0 150px;
+
 }
 
 .party-title {
@@ -97,7 +99,8 @@ body {
     font-weight: 900;
     line-height: 88px;
     width: 642px;
-    margin-bottom: 24px;
+    padding-top: 100px;
+    margin-bottom: 30px;
 
 }
 
@@ -120,6 +123,7 @@ body {
     font-weight: 700;
     background: transparent;
     border: none;
+    padding-top: 50px;
 }
 
 .night-party-container .party-pic {
@@ -132,16 +136,15 @@ body {
 }
 
 /* portfolio related style */
-.portfoli{
-    /* background-color: aqua; */
-    margin-top: 0px;
-    margin-bottom: 120px;
-}
-.protfolio-container{
-    padding: 0 140px 140px;
-
+.portfoli {
+        margin: 0px 100px 100px;
 }
 
+.protfolio-container {
+    /* padding: 0 140px; */
+    padding-left: 70px;
+    
+  }
 .portfolio-info {
     color: #F00;
     font-family: Inter;
@@ -149,7 +152,6 @@ body {
     font-weight: 500;
     margin-bottom: 10px;
 }
-
 .portfolio-title {
     color: #070211;
     font-family: Merriweather;
@@ -158,7 +160,6 @@ body {
     margin-top: 0px;
     margin-bottom: 20px;
 }
-
 .portfolio-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -166,13 +167,169 @@ body {
     font-weight: 400;
     width: 896px;
     margin-top: 0px;
+    padding-bottom: 50px;
 }
-.portfolio-pics-3, .portfolio-pics-6{
+.portfolio-pics-3,
+.portfolio-pics-6 {
     display: flex;
     gap: 30px;
     margin-bottom: 30px;
 }
-.portfolio-pics:hover{
-cursor: pointer;
 
+.portfolio-pics:hover {
+    cursor: pointer;
+
+}
+
+/* Newsletter section styles */
+.newsletter-section {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0px 140px 100px;
+    text-align: center;
+}
+
+.email-icon {
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+
+.newslatter-sub {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 20px;
+
+}
+
+.newsletter-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 40px;
+
+}
+
+.submit-form {
+    padding-top: 0px;
+    padding-bottom: 70px;
+}
+
+.email {
+    width: 450px;
+    height: 72px;
+    border: none;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.submit {
+    width: 210px;
+    height: 72px;
+    margin-left: 0px;
+}
+
+.submit-form {
+    align-items: center;
+}
+
+.email[type="email"] {
+    padding-left: 20px;
+    border: none;
+}
+
+.submit {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+/* footer related styles */
+footer {
+    background: #070211;
+}
+
+.address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 400px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.phone {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    text-align: right;
+
+}
+
+.web {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: right;
+    padding-top: 0px;
+
+
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-info {
+    padding-right: 240px;
+}
+
+hr {
+    /* background: rgba(255, 255, 255, 0.082);
+     width: ; */
+}
+
+.social-link {
+    text-align: center;
+    padding: 45px 0px;
+}
+
+.copy {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+}
+
+.copy-right {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    padding-bottom: 140px;
 }
