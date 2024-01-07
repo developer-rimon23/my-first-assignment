@@ -1,0 +1,178 @@
+/* main related style */
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.firt-section {
+    background-image: url('../media/happy\ Banner.png');
+    margin: 50px 140px 140px;
+    width: 1320px;
+    height: 600px;
+}
+
+.banner {
+    /* text-align: center; */
+}
+
+.happy-new-year {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 150px;
+}
+
+.happy-new-year-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 600px;
+
+}
+
+/* offer section related style */
+.sec-two {
+    text-align: center;
+}
+
+.off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.holiday-off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.new-year-pic {
+    width: 802.9px;
+    height: 500px;
+    margin-top: 0px;
+    /* margin-bottom: 150px; */
+}
+
+/* night party section style */
+.party {}
+
+.night-party-container {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    padding: 0 150px;
+    background-image: url('/media/Vectorrr.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 140px;
+    width: 1000px;
+    height: 500px;
+}
+
+.party-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    width: 642px;
+    margin-bottom: 24px;
+
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 700px;
+    margin-top: 0;
+    margin-bottom: 24;
+}
+
+.join-now {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+}
+
+.night-party-container .party-pic {
+    width: 320px;
+    height: 400px;
+    /* margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 200px; */
+    padding: 60px 140px 60px 0px
+}
+
+/* portfolio related style */
+.portfoli{
+    /* background-color: aqua; */
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+.protfolio-container{
+    padding: 0 140px 140px;
+
+}
+
+.portfolio-info {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+    margin-top: 0px;
+}
+.portfolio-pics-3, .portfolio-pics-6{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.portfolio-pics:hover{
+cursor: pointer;
+
+}
