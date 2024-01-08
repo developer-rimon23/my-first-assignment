@@ -1,6 +1,7 @@
 /* main related style */
 * {
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -135,16 +136,91 @@ body {
     padding: 60px 140px 60px 0px
 }
 
+
+/* new offer section's styles */
+.new-offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 140px 100px;
+}
+
+.new-offer-sec {
+    margin-right: 80px;
+}
+
+.new-offer-sec1 {
+    margin-left: 80px;
+}
+
+.new-offer-info {
+    color: #F00;
+       font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 20px;
+   
+}
+
+.new-offer-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 20px;
+   
+}
+
+.new-offer-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 400px;
+}
+
+.new-offer-img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+
+.new-offer-24 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.new-offer-24-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    margin-bottom: 40px;
+    
+}
+
+
 /* portfolio related style */
 .portfoli {
-        margin: 0px 100px 100px;
+    margin: 0px 100px 100px;
 }
 
 .protfolio-container {
     /* padding: 0 140px; */
     padding-left: 70px;
-    
-  }
+
+}
+
 .portfolio-info {
     color: #F00;
     font-family: Inter;
@@ -152,6 +228,7 @@ body {
     font-weight: 500;
     margin-bottom: 10px;
 }
+
 .portfolio-title {
     color: #070211;
     font-family: Merriweather;
@@ -160,6 +237,7 @@ body {
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
 .portfolio-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -169,6 +247,7 @@ body {
     margin-top: 0px;
     padding-bottom: 50px;
 }
+
 .portfolio-pics-3,
 .portfolio-pics-6 {
     display: flex;
@@ -331,5 +410,5 @@ footer {
     justify-content: space-between;
     padding: 0px 80px;
     padding-bottom: 140px;
-    padding-top:80px ;
+    padding-top: 80px;
 }
