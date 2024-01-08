@@ -299,7 +299,8 @@ body {
     margin-bottom: 30px;
 }
 
-.portfolio-pics:hover {
+.portfolio-pics-3,
+.portfolio-pics-6:hover {
     cursor: pointer;
 
 }
@@ -308,7 +309,7 @@ body {
 .newsletter-section {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    margin: 0px 180px 100px;
+    margin: 0px 10px 100px;
     text-align: center;
 }
 
